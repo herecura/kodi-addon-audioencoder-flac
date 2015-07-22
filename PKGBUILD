@@ -3,7 +3,7 @@
 
 pkgname=kodi-audioencoder-flac
 pkgver=20150601.a5e2d12
-pkgrel=1
+pkgrel=2
 pkgdesc="kodi audioencoder addon for flac"
 arch=('i686' 'x86_64')
 url='https://github.com/xbmc/audioencoder.flac'
