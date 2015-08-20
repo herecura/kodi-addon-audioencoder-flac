@@ -2,8 +2,9 @@
 # Maintainer: BlackEagle <ike.devolder@gmail.com>>
 
 pkgname=kodi-audioencoder-flac
+_commit=76508ed
 pkgver=20150810.76508ed
-pkgrel=1
+pkgrel=2
 pkgdesc="kodi audioencoder addon for flac"
 arch=('i686' 'x86_64')
 url='https://github.com/xbmc/audioencoder.flac'
@@ -11,7 +12,7 @@ license=('GPL')
 groups=('kodi-addons')
 depends=('kodi')
 makedepends=('git' 'cmake')
-source=("$pkgname::git://github.com/xbmc/audioencoder.flac.git")
+source=("$pkgname::git://github.com/xbmc/audioencoder.flac.git#commit=$_commit")
 sha256sums=('SKIP')
 
 pkgver() {

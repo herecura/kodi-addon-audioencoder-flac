@@ -1,7 +1,7 @@
 pkgbase = kodi-audioencoder-flac
 	pkgdesc = kodi audioencoder addon for flac
 	pkgver = 20150810.76508ed
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/xbmc/audioencoder.flac
 	arch = i686
 	arch = x86_64
@@ -10,7 +10,7 @@ pkgbase = kodi-audioencoder-flac
 	makedepends = git
 	makedepends = cmake
 	depends = kodi
-	source = kodi-audioencoder-flac::git://github.com/xbmc/audioencoder.flac.git
+	source = kodi-audioencoder-flac::git://github.com/xbmc/audioencoder.flac.git#commit=76508ed
 	sha256sums = SKIP
 
 pkgname = kodi-audioencoder-flac
